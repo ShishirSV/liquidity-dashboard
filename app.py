@@ -21,4 +21,4 @@ plot_time_series(df, "Date", plot_column)
 
 risk = st.radio("Risk Tolerance", ["Low", "Medium", "High"])
 allocation = score_cash_allocation(df, risk)
-st.metric("💰 Recommended Cash Allocation", f"{allocation}%")
+st.metric("Recommended Cash Allocation", f"{allocation}%")
